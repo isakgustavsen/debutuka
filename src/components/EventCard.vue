@@ -34,6 +34,7 @@
 
 <script>
 import { MailIcon, PhoneIcon } from '@heroicons/vue/solid'
+import { ref } from 'vue'
 
 const people = [
   {
@@ -94,6 +95,7 @@ const people = [
 ]
 
 export default {
+    name: 'EventCard',
   components: {
     MailIcon,
     PhoneIcon,
