@@ -1,23 +1,17 @@
 <template>
-
-    <div class="home">
-        <h1>Home</h1>
-    </div>
-
-    <Footer/>
-
+    <Hero/>
 </template>
 
 <script>
 export default{
     components: {
-        Footer
+        Hero
     }
 }
 
+import Hero from "../components/Hero.vue"
 
 
-import Footer from '../components/Footer.vue'
 </script>
 
 <style>
