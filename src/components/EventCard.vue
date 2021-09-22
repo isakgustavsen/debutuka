@@ -96,15 +96,15 @@ const people = [
 
 export default {
     name: 'EventCard',
-  components: {
-    MailIcon,
-    PhoneIcon,
-    
-  },
-  setup() {
-    return {
-      people,
-    }
-  },
+    components: {
+        MailIcon,
+        PhoneIcon,
+        
+    },
+    setup() {
+        return {
+        people,
+        }
+    },
 }
 </script>
